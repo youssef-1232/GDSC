@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>tasks</title>
+</head>
+
+<body>
+
+    <h1>TO DO LIST</h1>
+    <form action="/tasks" method="post">
+
+
+        <input type="text" name="descrption" placeholder="your task" required>
+        <input type="date" name="Date" required>
+
+        <button type="submit">ADD TASK</button>
+
+    </form>
+    <br>
+    <form action="/deletetask" method="get">
+
+        <table border="2">
+            <thead>
+                <th>descrption</th>
+                <th>Date</th>
+
+            </thead>
+            <%for(i in mytasks){%>
+                <tr>
+
+                    <th>
+                        <%=mytasks[i].descrption%>
+
+                    </th>
+                    <th>
+                        <%=mytasks[i].Date%>
+
+                            <button name="btn" value="<%=mytasks[i]._id%>">DELETE</button>
+                    </th>
+
+                </tr>
+
+                <%}%>
+    </form>
+</body>
+
+</html>
+
+</html>

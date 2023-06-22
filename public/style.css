@@ -1,0 +1,151 @@
+h1 {
+    text-align: center;
+    background-color: rgb(133, 138, 138);
+    margin-top: auto;
+    margin-bottom: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+form {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    flex: auto;
+    background-color: rgb(186, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 94%;
+}
+
+br {
+    background-color: blueviolet;
+}
+
+form input {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(255, 255, 255);
+    width: 42%;
+    height: 1cm;
+    padding: 0%;
+    border: 1%;
+}
+
+* {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(83, 152, 163);
+}
+
+form button {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(18, 217, 239);
+    color: #000;
+    height: 1cm;
+    cursor: alias;
+}
+
+form thead {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(33, 206, 225);
+    color: #0b0606;
+    height: 1cm;
+    font-size: medium;
+}
+
+form tr {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(14, 16, 17);
+    color: #0b0606;
+    height: 1.5cm;
+    font-size: 100%;
+    cursor: -webkit-grabbing;
+    border: rgb(60, 66, 66);
+    box-shadow: cornflowerblue;
+    border-top-right-radius: 8%;
+    writing-mode: horizontal-tb;
+    text-rendering: geometricPrecision;
+}
+
+form table {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(33, 206, 225);
+    color: #4f216f;
+    height: 4cm;
+    font-size: 100%;
+}
+
+form table tr {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(3, 41, 45);
+    color: #09080a;
+    height: 1cm;
+    font-size: 100%;
+}
+
+form table th {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    flex: auto;
+    background-color: rgb(127, 148, 150);
+    color: #09080a;
+    height: 1cm;
+    font-size: 100%;
+    width: 50cm;
+}
+
+form table th button {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 22%;
+    margin-right: 1%;
+    flex: auto;
+    background-color: rgb(26, 152, 166);
+    color: #09080a;
+    height: 1cm;
+    font-size: 100%;
+    width: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding: auto;
+    position: sticky;
+}

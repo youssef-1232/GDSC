@@ -1,0 +1,28 @@
+{
+    "name": "g-project",
+    "version": "1.0.0",
+    "description": "final project",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "youssef",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "body": "^5.1.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "fs": "^0.0.1-security",
+        "helmet": "^6.1.5",
+        "http": "^0.0.1-security",
+        "mongodb": "^5.4.0",
+        "mongoose": "^7.0.5",
+        "nodemon": "^2.0.22",
+        "xss-clean": "^0.1.1"
+    }
+}
